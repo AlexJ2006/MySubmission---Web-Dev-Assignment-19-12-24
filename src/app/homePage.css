@@ -1,0 +1,28 @@
+
+.WelcomeMessage{
+    background-image: url(/images/MainAtrium.png);
+    padding-bottom: 3px;
+    padding-top: 75px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.WelcomeMessage h1{
+    padding-left: 50px;
+    color: white;
+    font-size: 100px;
+}
+/* h1 is a different size to h2. Therefore I chose not to edit the styling of them both within the same CSS command section. */
+.WelcomeMessage h2{
+    padding-left: 50px;
+    color: white;
+    font-size: 75px;
+    align-self: center;
+}
+
+.WelcomeMessage :hover{
+    color: rgb(190, 188, 188);
+}
+
+.mainText{
+    font-weight: 500;
+}
