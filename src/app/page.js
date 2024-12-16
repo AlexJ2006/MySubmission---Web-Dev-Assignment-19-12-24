@@ -1,8 +1,13 @@
 import './homePage.css'
 import Image from 'next/image';
+
+export const metadata = {
+  title: "CantorCollege.ac.uk | Home",
+};
+
 export default function Home() {
-  return (
   
+  return (
     <><div className='WelcomeMessage'>
       <h1>Welcome To</h1>
       <h2>Cantor College</h2>

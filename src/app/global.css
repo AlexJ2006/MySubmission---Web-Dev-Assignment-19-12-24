@@ -21,3 +21,9 @@ body {
 .Copyright{
   text-align: center;
 }
+
+/* Ensures the image is not directly under the text. Therefore enhancing the user experience. */
+.ComputerLabImage2{
+  padding-top: 15px;
+}
+

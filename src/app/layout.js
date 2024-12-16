@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar";
 import './global.css'
+
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
@@ -7,7 +8,9 @@ export default function RootLayout({ children }) {
         <div className='container'>
         <header>
         <Navbar></Navbar>
-
+        <script>
+          alert("Accept Cookies");
+          </script>
         </header>
         {children}
         </div>
@@ -15,7 +18,6 @@ export default function RootLayout({ children }) {
         <div className="footer">
           <div className="footerText">
           <br></br>
-         <script src="script.js" defer></script>
           <p>Cantor College</p>
           <p>Main Street</p>
           <p>Sheffield</p>

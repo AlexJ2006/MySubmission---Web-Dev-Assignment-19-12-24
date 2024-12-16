@@ -39,7 +39,8 @@ menu {
     background-color: #333;
     width: 100%;
     max-height: 0;
-    overflow: hidden;
+    /* allows the user to have a scroll bar to access all of the pages */
+    overflow: scroll;
     position: absolute;
     top: 100%;
     left: 0;
