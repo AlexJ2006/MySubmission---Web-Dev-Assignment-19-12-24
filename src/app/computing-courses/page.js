@@ -28,5 +28,6 @@ export default function ComputingCourses(){
                 They are designed to prepare students for professional occupations in Computing and related fields.
                 Many graduates continue their studies to pursue a higher degree such as an MSc. or PhD.
             </p></>
+            
         )
     }
