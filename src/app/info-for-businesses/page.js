@@ -76,7 +76,7 @@ export default function Businesses(){
       <h4>Get in touch</h4>
       <h5>Ready to explore how Cantor College can help your business grow?</h5>
       <p>
-          Contact our Business Services team today to discuss your needs and learn more about our offerings.
+          Contact our business Services team today to discuss your needs and learn more about our offerings.
           We look forward to working with you to achieve your business goals.
       </p>
   </div>

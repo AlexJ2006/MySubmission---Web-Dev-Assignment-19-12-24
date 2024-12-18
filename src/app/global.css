@@ -26,3 +26,19 @@ body {
 .ComputerLabImage2{
   padding-top: 15px;
 }
+
+.mainText{
+  font-weight: 500;
+}
+
+.CourseList{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding-bottom: 0;
+  background-color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-content: center;
+}
+
