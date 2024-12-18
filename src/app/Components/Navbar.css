@@ -9,12 +9,13 @@
 nav {
     font-family: Arial, sans-serif;
     margin-bottom: 25px;
+    position: relative;
 }
 
 /* Styles for the containers */
 nav {
     position: relative;
-    background-color: #333;
+    background-color: darkgoldenrod;
     padding: 0.5em;
     display: flex;
     flex-direction: row-reverse;
@@ -36,7 +37,7 @@ menu {
     display: flex;
     flex-direction: column;
     gap: 0;
-    background-color: #333;
+    background-color: darkgoldenrod;
     width: 100%;
     max-height: 0;
     /* allows the user to have a scroll bar to access all of the pages */
@@ -54,6 +55,19 @@ menu.active {
     z-index: 1;
 }
 
+/* Underlining the nav menu item when hovering.  */
+menu li a::after{
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: rgb(81 61 13);
+    display: block;
+    left: 0px;
+    bottom: -20px;
+    opacity: 0;
+    transition: all 0.2;
+    pointer-events: none;
+}
 /* Styles the links for the mobile menu items. */
 menu li a {
     color: white;
@@ -61,12 +75,12 @@ menu li a {
     padding: 0.5em 1em;
     border-top: 1px solid #444;
     display: block;
-    transition: background-color 0.3s;
 }
 
 /* Controls what happens when a menu item is hovered over. */
-menu li a:hover {
-    background-color: #555;
+menu li a:hover::after, 
+menu li a:focus::after {
+    opacity: 1;
     border-radius: 5px;
 }
 

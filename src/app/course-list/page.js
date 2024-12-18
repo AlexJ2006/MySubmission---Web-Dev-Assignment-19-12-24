@@ -7,7 +7,7 @@ const Course = async () => {
   const Course = await fetchCourse();
 
   return (
-    <div className='container'>
+    <div className='Course-List-Container'>
       <h2>Course List</h2>
       <ol key={{index}}>
             {/* Loop over the staff and display them here: */}

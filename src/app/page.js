@@ -10,7 +10,8 @@ export default function Home() {
   return (
     <><div className='WelcomeMessage'>
       <h1>Welcome To</h1>
-      <h2>Cantor College</h2>
+      <h2>Cantor</h2>
+      <h3>College</h3>
     </div><><div className='mainText'>
       <p> Cantor College was established in 1989 to specialize in Computing and Design. At Cantor College,
         we want to give students the education they need to achieve their career aims, leaving them equipped with the knowledge,

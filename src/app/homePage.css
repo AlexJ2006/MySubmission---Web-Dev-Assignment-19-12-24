@@ -1,31 +1,46 @@
+/* Home Page CSS! */
 
+/* Setting the background image so it will sit behind the welcome message. */
 .WelcomeMessage{
     background-image: url(/images/MainAtrium.png);
     padding-bottom: 3px;
     padding-top: 75px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
+/* Adjusts the h1 of the welcome message */
 .WelcomeMessage h1{
     padding-left: 30px;
     color: white;
     font-size: 50px;
     display: flex;
 }
-/* h1 is a different size to h2. Therefore I chose not to edit the styling of them both within the same CSS command section. */
+/* h1 is a slightly different size to h2. Therefore I chose not to edit the styling of them both within the same CSS command. */
 .WelcomeMessage h2{
     padding-left: 30px;
-    color: white;
+    color: darkgoldenrod;
     font-size: 50px;
     align-self: center;
     display: flex;
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+.WelcomeMessage h3{
+    padding-left: 30px;
+    color:rgb(81 61 13);
+    font-size: 50px;
+    align-self: center;
+    display: flex;
+    margin-top: 10px;
 }
 
+/* Controls what happens when the welcome message is hovered over */
 .WelcomeMessage :hover{
     color: rgb(190, 188, 188);
 }
 
+/* Setting the font weight (how bold the text is) */
 .mainText{
     font-weight: 500;
 }
